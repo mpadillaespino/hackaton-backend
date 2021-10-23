@@ -1,0 +1,27 @@
+mfpe:
+  hackatonbackend:
+    dbmsql:
+      url: VALOR_SECRETO
+      username: VALOR_SECRETO
+      password: VALOR_SECRETO
+      driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    configuration:
+      approbeurl: "URL"
+      sms:
+        region: us-east-1
+        applicationId: "VALOR_SECRETO"
+        accessKey: "VALOR_SECRETO"
+        secretKey: "VALOR_SECRETO"
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: VALOR_SECRETO@gmail.com
+    password: VALOR_SECRETO
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
